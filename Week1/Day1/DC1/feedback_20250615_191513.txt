@@ -1,0 +1,14 @@
+URL: https://github.com/arquansa/PSTB-exercises/blob/main/Week1/Day1/DC1/Week1-Day1-Daily-Challenge.ipynb
+suggestions for improvement:
+- **Challenge 1:** The code for Challenge 1 correctly generates a list of multiples. However, it prints each multiple on a new line instead of printing the entire list at once.
+- **Challenge 1:**  The variable names could be more descriptive (e.g., `multiple` instead of `number`).
+- **Challenge 2:** The code for Challenge 2 has a significant flaw. It iterates through the string twice, resulting in the incorrect removal of duplicate characters. The logic needs to be refined to process the string correctly once only.
+- **Challenge 2:**  The code uses unnecessary variables and could be simplified and made more readable.  The use of `list` as a variable name shadows the built-in `list` type, which is bad practice.
+- **Challenge 2:** Add input validation to handle cases where the user does not enter a string. 
+- **General:** Use more descriptive variable names.  Consider using functions to improve code organization and readability.
+Brief justification:
+- correctness: Challenge 1's core logic is correct; it calculates multiples as specified. However, the output format doesn't match the challenge's requirement.  Challenge 2's core logic is flawed, resulting in an incorrect output.  Therefore, the correctness score reflects partial success for Challenge 1 and failure for Challenge 2.
+- readability: The code for Challenge 1 is relatively readable, though improvements with variable names are possible. The code for Challenge 2 is less readable due to unnecessary iterations and poor variable names. The use of `list` as a variable name is highly discouraged.
+- performance: Challenge 1's performance is good; its time complexity is linear.  Challenge 2's performance is poor due to the redundant loop; its efficiency should be significantly improved. The single loop in challenge 1 is efficient.
+- security: The code does not have any apparent security vulnerabilities. It only deals with user input and performs string/list manipulations.
+
